@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <section class="movies">
+      <div class="container">
+       <form class="movies__form">
+        <img class="movies__logo" src="./img/1212_1.png" alt="logo">
+         <input type="text" id="search" placeholder="Search...." class="movies__search">
+        <select name="" id="select" class="movies__search">
+            <option value="All" class="movies__option">All</option>
+            <option value="Comedy" class="movies__option">Comedy</option>
+            <option value="Action" class="movies__option">Action</option>
+            <option value="Fantasy" class="movies__option">Fantasy</option>
+            <option value="Adventure" class="movies__option">Adventure</option>
+            <option value="Science Fiction" class="movies__option">Science Fiction</option>
+            <option value="Thriller" class="movies__option">Thriller</option>
+            <option value="Horror" class="movies__option">Horror</option>
+            <option value="Animation" class="movies__option">Animation</option>
+            <option value="Family" class="movies__option">Family</option>
+            <option value="Documentary" class="movies__option">Documentary</option>              
+        </select>
+       <button type="submit" class="movies__button">Search</button>
+      </form>
+      <div class="movies__modal">
+        <div class="movies__X__btn" onclick="modal.style.display = 'none';"><i class="fa-solid fa-circle-xmark movies__icon"></i></div>
+        <div class="movies__contenr"></div>
+          <ul class="movies__modall__list">
+          <!-- <!-- <li class="movies__modall__item"> -->
+                <!-- <img class="movies__modall__img" src="./img/c6118d61d2d85bd5a4704e7e50a03502.jpg" alt="modal__img">
+              <div class="movies__modal__hero">
+                <h1 class="movies__modall__title">Shazam</h1>
+                <p class="movies__modall__category">family,Comedy</p>
+                <p class="movies__modall__malumot">
+                  kajfhsfljhlkashrhdflknvkdanvkdn;kDN;<br>
+                  KCXNV;R;svns;n;lahjsdbfjlhbsdjkbnsdj;<br>
+                  gsELJVBkHsvbndKJSN;m;dklnmv;'kajfhsfl<br>
+                </p>
+              </div>
+            </li> --> -->
+          </ul>
+        
+      </div>
+      <ul class="movies__list">
+        <!-- <li class="movies__item">
+          <img class="movies__img" src="./img/c6118d61d2d85bd5a4704e7e50a03502.jpg" alt="item__img">
+          <h1 class="movies__item__title">Shazam</h1>
+          <p class="movies__item__text">18.1.1970</p>
+          <button onclick="ok()"  class="movies__item__button">Show more</button>
+        </li>
+        <li class="movies__item">
+          <img class="movies__img" src="./img/c6118d61d2d85bd5a4704e7e50a03502.jpg" alt="item__img">
+          <h1 class="movies__item__title">Shazam</h1>
+          <p class="movies__item__text">18.1.1970</p>
+          <button onclick="ok()" class="movies__item__button">Show more</button>
+        </li>
+        <li class="movies__item">
+          <img class="movies__img" src="./img/c6118d61d2d85bd5a4704e7e50a03502.jpg" alt="item__img">
+          <h1 class="movies__item__title">Shazam</h1>
+          <p class="movies__item__text">18.1.1970</p>
+          <button onclick="ok()" class="movies__item__button">Show more</button>
+        </li>
+        <li class="movies__item">
+          <img class="movies__img" src="./img/c6118d61d2d85bd5a4704e7e50a03502.jpg" alt="item__img">
+          <h1 class="movies__item__title">Shazam</h1>
+          <p class="movies__item__text">18.1.1970</p>
+          <button onclick="ok()" class="movies__item__button">Show more</button>
+        </li>
+        <li class="movies__item">
+          <img class="movies__img" src="./img/c6118d61d2d85bd5a4704e7e50a03502.jpg" alt="item__img">
+          <h1 class="movies__item__title">Shazam</h1>
+          <p class="movies__item__text">18.1.1970</p>
+          <button onclick="ok()" class="movies__item__button">Show more</button>
+        </li>
+        <li class="movies__item">
+          <img class="movies__img" src="./img/c6118d61d2d85bd5a4704e7e50a03502.jpg" alt="item__img">
+          <h1 class="movies__item__title">Shazam</h1>
+          <p class="movies__item__text">18.1.1970</p>
+          <button onclick="ok()" class="movies__item__button">Show more</button>
+        </li>
+        <li class="movies__item">
+          <img class="movies__img" src="./img/c6118d61d2d85bd5a4704e7e50a03502.jpg" alt="item__img">
+          <h1 class="movies__item__title">Shazam</h1>
+          <p class="movies__item__text">18.1.1970</p>
+          <button  class="movies__item__button">Show more</button>
+        </li>
+        <li class="movies__item">
+          <img class="movies__img" src="./img/c6118d61d2d85bd5a4704e7e50a03502.jpg" alt="item__img">
+          <h1 class="movies__item__title">Shazam</h1>
+          <p class="movies__item__text">18.1.1970</p>
+          <button onclick="ok()" class="movies__item__button modal__btn">Show more</button>
+        </li> -->
+      </ul>
+      </div>
+    </section>
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>
